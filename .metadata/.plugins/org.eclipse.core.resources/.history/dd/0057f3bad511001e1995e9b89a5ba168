@@ -1,0 +1,11 @@
+package map;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapUtils {
+
+	static void createMap() {
+		Map<Integer,String> map = new HashMap<>();
+	}
+}

@@ -1,0 +1,23 @@
+package map;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapUtils {
+
+//	Map creation
+	static void createMap() {
+		Map<Integer,String> map = new HashMap<>();
+		map.put(1, "Ram Pothineni");
+		map.put(1, "Ram Charan");
+		map.put(1, "Allu Arjun");
+		map.put(1, "Prabhas");
+		map.put(1, "Jr NTR");
+		map.put(1, "Ravi Teja");
+		map.put(1, "Mahesh Babu");
+		map.put(1, "Pawan Kalyan");
+		map.put(1, "Sai Dharam Tej");
+		map.put(1, "Jayam Ravi");
+		map.put(1, "Arun Vijay");
+	}
+}

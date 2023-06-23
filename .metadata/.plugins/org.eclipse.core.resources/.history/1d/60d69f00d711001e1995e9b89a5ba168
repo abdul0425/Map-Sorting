@@ -1,0 +1,34 @@
+package map;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapUtils {
+
+//	Map creation
+	static Map<Integer, String> createMap() {
+		Map<Integer,String> map = new HashMap<>();
+		map.put(1, "Ram Pothineni");
+		map.put(2, "Ram Charan");
+		map.put(3, "Allu Arjun");
+		map.put(4, "Prabhas");
+		map.put(5, "Jr NTR");
+		map.put(6, "Ravi Teja");
+		map.put(7, "Mahesh Babu");
+		map.put(8, "Pawan Kalyan");
+		map.put(9, "Sai Dharam Tej");
+		map.put(10, "Jayam Ravi");
+		map.put(11, "Arun Vijay");
+		map.put(12, "Kalyan Ram");
+		
+		return map;
+	}
+
+//	to print map
+	static void printMap(Map<Integer,String> map) {
+		map
+		.entrySet()
+		.stream()
+		.forEach(System.out::println);
+	}
+}
